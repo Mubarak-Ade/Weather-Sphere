@@ -2,14 +2,15 @@ import React, { createContext, useEffect, useState } from 'react'
 
 export const MainContext = createContext()
 
+
 function AppContext({children}) {
 	const [weatherData, setWeatherData] = useState(null)
 	const [loading, setLoading] = useState(true)
 	const [error, setError] = useState(null)
 	const [city, setCity] = useState('Kano')
 
+	const apiKey = import.meta.env.VITE_API_KEY
 	const handleDataFetch = async () => {
-		const apiKey = '6dcec1f06a009ce5fd88ea7cd32dee77'
 		const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
 
 		if (!city.trim()) {
