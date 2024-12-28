@@ -1,0 +1,51 @@
+/* src/font.css */
+
+/* Roboto Mono */
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./assets/fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* Sour Gummy */
+@font-face {
+  font-family: 'Sour Gummy';
+  src: url('./assets/fonts/Sour_Gummy/SourGummy-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sour Gummy';
+  src: url('./assets/fonts/Sour_Gummy/SourGummy-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* Playfair Display */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* Edu AU VIC WA NT Pre */
+@font-face {
+  font-family: 'Edu AU VIC WA NT Pre';
+  src: url('./assets/fonts/Edu_AU_VIC_WA_NT_Pre/EduAUVICWANTPre-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}

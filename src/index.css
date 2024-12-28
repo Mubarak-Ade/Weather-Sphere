@@ -1,0 +1,11 @@
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@import './font.css'
+
+/* blue-400
+slate-50
+slate-200
+slate-400
+slate-500
+slate-600 */
