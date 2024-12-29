@@ -51,13 +51,13 @@ function AppContext({children}) {
 	const handleBgChange = (temperature) => {
 
 		if(temperature <= 0) {
-			return './assets/Images/svgs/weather svg/windy-svgrepo-com.svg'
+			return "./assets/Images/svg/weather-svg/snow.svg"	
 		} else if (temperature > 0 && temperature <= 20) {
-			return './assets/Images/svgs/weather svg/cloudy-day-svgrepo-com.svg'
+			return "./assets/Images/svg/weather-svg/cloudy-day.svg"
 		} else if ( temperature > 20 && temperature <= 30) {
-			return './assets/Images/svgs/weather svg/weather-icons-35-svgrepo-com.svg'
+			return "./assets/Images/svg/weather-svg/weather-icons.svg"
 		} else {
-			return './assets/Images/svgs/weather svg/sunny-svgrepo-com.svg'
+			return "./assets/Images/svg/weather-svg/sunny.svg"
 		} 
 	}
 	

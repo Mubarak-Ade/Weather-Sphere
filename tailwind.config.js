@@ -13,11 +13,11 @@ export default {
 				'edu-au-vic-wa-nt-pre': ['Edu AU VIC WA NT Pre', 'sans-serif'],
 			},
 			backgroundImage: {
-				'winter': 'url(./assets/Images/weather image/elijah-hail-WSmbOa4xJwM-unsplash.jpg)',
-				'spring': 'url(./assets/Images/weather image/zoltan-tasi-h_gwdi8UH2o-unsplash.jpg)',
-				'fall': 'url(./assets/Images/weather image/noah-silliman-i2J9jnvaAbU-unsplash.jpg)',
-				'summer': 'url("./assets/Images/weather image/glenn-carstens-peters-2E_dT65fyxo-unsplash.jpg")',
-				'image-3': 'url("./assets/Images/weather image/simon-berger-twukN12EN7c-unsplash.jpg")',
+				'winter': 'url("./assets/Images/weather-image/winter.jpg")',
+				'spring': 'url("./assets/Images/weather-image/spring.jpg")',
+				'fall': 'url("./assets/Images/weather-image/fall.jpg")',
+				'summer': 'url("./assets/Images/weather-image/summer.jpg")',
+				'image-3': 'url("./assets/Images/weather-image/image.jpg")',
 			}
 		},
 	},
