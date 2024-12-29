@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { MainContext } from '../context/AppContext'
+import  Loader from '../components/Loader'
 
 function WeatherDisplay() {
 	const {loading, error, weatherData, city} = useContext(MainContext)
@@ -24,7 +25,7 @@ function WeatherDisplay() {
 	return (
 		<div className='p-4 my-10 flex flex-col gap-10 justify-around items-center'>
 			<h1 className='sm:text-7xl text-5xl lg:text-8xl md:text-8xl text-white font-playfair-display font-bold'>{handleDate()}</h1>
-			{loading && <p>Loading...</p>}
+			{loading && (<div className="absolute h-screen bg-slate-500 bg-opacity-40 top-0 w-full flex items-center justify-center"> <Loader /> </div>)}
 			{error && <p className='text-3xl font-playfair-display text-red-500'>Error: {error} </p>}
 			{weatherData && (
 				<div className="w-full">
