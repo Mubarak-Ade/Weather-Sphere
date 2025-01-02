@@ -10,7 +10,7 @@ function Container() {
 	console.log(weatherData.name)
 
 	return (
-		<div className={`flex items-center justify-center w-full lg:h-screen h-full ${!weatherData ? `bg-${weatherData.bg}` : 'bg-image-3'} bg-cover`}>
+		<div className={`flex items-center justify-center w-full lg:h-screen min-h-screen ${!weatherData ? `bg-${weatherData.bg}` : 'bg-image-3'} bg-cover`}>
 			<div className='bg-slate-600 p-4 bg-opacity-60 rounded-xl h-full w-full lg:h-[35rem] md:h-[55rem] shadow-2xl md:w-10/12 lg:w-10/12'>
 				<Header />
 				<WeatherDisplay  />

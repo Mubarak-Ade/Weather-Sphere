@@ -53,7 +53,7 @@ function AppContext({children}) {
 		if(temperature <= 0) {
 			return "./assets/Images/svg/weather-svg/snow.svg"	
 		} else if (temperature > 0 && temperature <= 20) {
-			return "./assets/Images/svg/weather-svg/cloudy-day.svg"
+			return "./assets/Images/svg/weather-svg/cloudy.svg"
 		} else if ( temperature > 20 && temperature <= 30) {
 			return "./assets/Images/svg/weather-svg/weather-icons.svg"
 		} else {
